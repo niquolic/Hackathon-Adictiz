@@ -1,16 +1,11 @@
 import React from "react";
+import Navigation from "./components/Navigation";
 import "./asset/styles/layouts/index.scss";
 
 function App() {
     return (
-        <div className="App-nav">
-            <nav>
-                <ul>
-                    <li>
-
-                    </li>
-                </ul>
-            </nav>
+        <div className="App">
+            <Navigation/>
         </div>
     );
 }
