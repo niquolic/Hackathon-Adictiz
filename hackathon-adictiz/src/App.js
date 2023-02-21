@@ -6,6 +6,7 @@ function App() {
     return (
         <div className="App">
             <Navigation/>
+            <img className="background_wave" src="./img/background_wave.png" alt="background_wave"/>
         </div>
     );
 }
