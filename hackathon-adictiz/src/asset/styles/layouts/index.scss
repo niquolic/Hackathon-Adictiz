@@ -1,4 +1,24 @@
 @import "./navigation";
+@import "./concept";
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../../public/fonts/Montserrat/static/Montserrat-Medium.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('../../../../public/fonts/Montserrat/static/Montserrat-Light.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../../../../public/fonts/Montserrat/static/Montserrat-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
 html, body {
     margin: 0;
     margin-top: -10px;
