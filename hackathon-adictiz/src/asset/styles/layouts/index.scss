@@ -22,12 +22,18 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../../../../public/fonts/Montserrat/static/Montserrat-Regular.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
 html, body {
     margin: 0;
     margin-top: -10px;
 }
 .App {
-    font-family: 'Montserrat Light', sans-serif;
+    font-family: 'Montserrat Regular', sans-serif;
     .background_wave {
         width: 100%;
     }

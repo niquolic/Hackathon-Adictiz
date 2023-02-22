@@ -2,18 +2,20 @@
     padding-top: 80px;
     text-align: center;
     font-size: 24px;
-    font-family: 'Montserrat Light';
+    font-family: 'Montserrat Bold', sans-serif;
+    color: #0092FF;
 }
 .bornes-list {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    background-color: rgb(245, 245, 245);
+    padding: 50px;
     .totem-div {
         text-align: center;
         flex-basis: 25%;
         margin-right: 20px;
+        background-color: white;
         margin-left: 20px;
-        box-shadow: 0px 0px 17px 10px rgba(224, 214, 214, 0.5);
         border-radius: 3px;
         transition: .5s;
         img {
@@ -26,6 +28,7 @@
         }
     }
     .totem-div:hover {
-        transform: translateY(-50px);
+        box-shadow: 0px 0px 17px 10px rgba(224, 214, 214, 0.5);
+        transform: translateY(-30px);
     }
 }
