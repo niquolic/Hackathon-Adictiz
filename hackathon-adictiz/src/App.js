@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import Bornes from "./components/Bornes";
 import Concept from "./components/Concept";
 import VideoTerminal from "./components/VideoTerminal";
+import Footer from "./components/Footer";
 import "./asset/styles/layouts/index.scss";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Concept/>
             <VideoTerminal/>
             <Bornes/>
+            <Footer/>
         </div>
     );
 }
