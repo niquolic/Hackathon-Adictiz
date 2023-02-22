@@ -1,6 +1,14 @@
 .container-concept {
-    margin-left: 7%;
+    h1 {
+        margin-left: 7%;
+    }
     width: 100%;
-    font-family: 'Montserrat Light', sans-serif;
-    font-size: 14px;
+}
+.concept-description {
+    width:100%;
+    p {
+        margin-left: 9%;
+        width: 60vw;
+        line-height: 1.7;
+    }
 }
