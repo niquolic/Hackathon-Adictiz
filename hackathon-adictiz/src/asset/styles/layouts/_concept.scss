@@ -1,16 +1,29 @@
 .container-concept {
+    display: flex;
+    flex-direction: row;
     h1 {
         margin-left: 7%;
         color:#0092FF;
         font-family: 'Montserrat Bold', sans-serif;
     }
     width: 100%;
-}
-.concept-description {
-    width:100%;
-    p {
-        margin-left: 9%;
-        width: 60vw;
-        line-height: 1.7;
+    .concept-img {
+        position: absolute;
+        right: 7vw;
+        top:10vh;
+        img {
+            border-radius: 25%;
+        }
+    }
+    .concept-txt {
+        z-index: 1;
+    }
+    .concept-description {
+        width:100%;
+        p {
+            margin-left: 9%;
+            width: 60vw;
+            line-height: 1.7;
+        }
     }
 }
