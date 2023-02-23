@@ -5,7 +5,7 @@ const VideoTerminal = () => {
         <div className="App-video">
             <div className="video-container">
                 <div className="video">
-                    <iframe width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="borne_video" width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div>
                     <button>
