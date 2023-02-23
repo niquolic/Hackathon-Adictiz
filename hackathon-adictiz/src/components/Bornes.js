@@ -2,7 +2,7 @@ import React from "react";
 
 const Bornes = () => {
     return(
-        <div>
+        <div className="bornes-container">
             <h1 className="bornes-title">Nos autres bornes</h1>
             <div className="bornes-list">
                 <div className="totem-div">

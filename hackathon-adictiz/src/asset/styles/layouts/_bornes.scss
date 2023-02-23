@@ -1,3 +1,7 @@
+.bornes-container {
+    background-color: rgb(245, 245, 245);
+    margin-top: 100px;
+}
 .bornes-title {
     padding-top: 80px;
     text-align: center;
@@ -8,7 +12,6 @@
 .bornes-list {
     display: flex;
     justify-content: center;
-    background-color: rgb(245, 245, 245);
     padding: 50px;
     .totem-div {
         text-align: center;
