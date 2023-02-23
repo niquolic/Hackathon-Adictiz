@@ -8,7 +8,7 @@ const VideoTerminal = () => {
                 <div>
                     <button>
                         <span className="business">LE BUSINESS PLAN</span>
-                        <span class="material-icons">
+                        <span className="material-icons">
                             arrow_forward
                         </span>
                     </button>
