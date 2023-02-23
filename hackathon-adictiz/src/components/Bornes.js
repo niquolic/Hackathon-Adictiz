@@ -7,7 +7,7 @@ const Bornes = () => {
             <div className="bornes-list">
                 <div className="totem-div">
                     <img src="./img/totem-borne.png" alt="Totem"/>
-                    <h2>Borne Totem</h2>
+                    <div><h2>Borne Totem</h2></div>
                 </div>
                 <div className="totem-div">
                     <img src="./img/totem-borne.png" alt="Totem"/>
