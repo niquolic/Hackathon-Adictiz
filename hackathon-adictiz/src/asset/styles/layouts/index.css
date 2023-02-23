@@ -1,0 +1,204 @@
+.App-nav {
+  width: 100%;
+  background-color: #0092FF;
+  color: white;
+  padding-top: 40px;
+}
+.App-nav ul {
+  font-size: 18px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.App-nav ul li {
+  list-style-type: none;
+}
+.App-nav ul .li-1 {
+  padding-top: 10px;
+}
+
+.bornes-container {
+  background-color: rgb(245, 245, 245);
+  margin-top: 100px;
+}
+
+.bornes-title {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Montserrat Bold", sans-serif;
+  color: #0092FF;
+}
+
+.bornes-list {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.bornes-list .totem-div {
+  text-align: center;
+  flex-basis: 25%;
+  margin-right: 20px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.bornes-list .totem-div img {
+  padding-top: 20px;
+  height: 300px;
+  width: 300px;
+}
+.bornes-list .totem-div h2 {
+  padding-top: 10px;
+}
+.bornes-list .totem-div:hover {
+  box-shadow: 0px 0px 17px 10px rgba(224, 214, 214, 0.5);
+  transform: translateY(-30px);
+}
+
+.container-concept {
+  width: 100%;
+}
+.container-concept h1 {
+  margin-left: 7%;
+  color: #0092FF;
+  font-family: "Montserrat Bold", sans-serif;
+}
+
+.concept-description {
+  width: 100%;
+}
+.concept-description p {
+  margin-left: 9%;
+  width: 60vw;
+  line-height: 1.7;
+}
+
+.App-video {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.App-video .video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+}
+.App-video .video {
+  background-color: rgb(196, 196, 196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 50vw;
+}
+.App-video button {
+  margin-top: 40px;
+  background-color: #0092FF;
+  border-radius: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.App-video button .business {
+  margin-right: 10px;
+}
+.App-video .terminal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+  height: 650px;
+  width: 360px;
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.0862745098);
+}
+.App-video .terminal-container .terminal-header {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.App-video .terminal-container .terminal-header span {
+  font-family: "Montserrat Bold", sans-serif;
+  border-radius: 40px;
+  border: 2px solid #F9D169;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.App-video .terminal-container .terminal-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.App-video .terminal-container .terminal-desc {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App-video .terminal-container .terminal-desc div {
+  margin-bottom: 30px;
+}
+
+.Footer-div {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #0092FF;
+  color: white;
+  margin-top: 50px;
+}
+.Footer-div footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Footer-div footer b {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../../public/fonts/Montserrat/static/Montserrat-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("../../../../public/fonts/Montserrat/static/Montserrat-Light.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("../../../../public/fonts/Montserrat/static/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("../../../../public/fonts/Montserrat/static/Montserrat-Regular.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+html, body {
+  margin: 0;
+  margin-top: -10px;
+}
+
+.App {
+  font-family: "Montserrat Regular", sans-serif;
+}
+.App .background_wave {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

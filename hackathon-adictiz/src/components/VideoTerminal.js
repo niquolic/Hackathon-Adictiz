@@ -4,7 +4,9 @@ const VideoTerminal = () => {
     return(
         <div className="App-video">
             <div className="video-container">
-                <div className="video">VIDEO</div>
+                <div className="video">
+                    <iframe width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                </div>
                 <div>
                     <button>
                         <span className="business">LE BUSINESS PLAN</span>

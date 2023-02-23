@@ -3,19 +3,16 @@ import React from "react";
 const Concept = () => {
     return(
         <div className="container-concept">
-            <div className="concept-txt">
-                <h1>Notre concept</h1>
-                <div className="concept-description">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-                        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-                        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-            </div>
-            <div className="concept-img">
-                <img src="./img/adictiz_happy.png" alt="happy girl wow"/>
+            <h1>Notre concept</h1>
+            <div className="concept-description">
+                <p>A l’heure du numérique, il convient d’outrepasser les outils classiques pour collecter des informations. 
+                    Focus sur les bornes digitales, le nouvel outil à la mode.<br/>
+                    Les bornes digitales ont connu une évolution spectaculaire au cours des dernières années.
+                     Les technologies mises en œuvre ont considérablement changé et les performances des bornes
+                     digitales ont considérablement augmenté. Les bornes digitales sont aujourd’hui plus rapides,
+                     plus fiables et plus précises.<br/>
+                     Les clients aiment voir, interagir, toucher et expérimenter les choses.
+                    Il n'est pas difficile de démontrer à quel point les clients sont friands de jeux marketing.</p>
             </div>
         </div>
     );
