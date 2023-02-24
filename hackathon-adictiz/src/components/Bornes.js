@@ -7,15 +7,24 @@ const Bornes = () => {
             <div className="bornes-list">
                 <div className="totem-div">
                     <img src="./img/totem-borne.png" alt="Totem"/>
-                    <div><h2>Borne Totem</h2></div>
+                    <div className="text">
+                        <h2>Borne Totem</h2>
+                        <p>Disponible en 22, 27, 32 et 43 pouces</p>
+                    </div>
                 </div>
                 <div className="totem-div">
                     <img src="./img/totem-borne.png" alt="Totem"/>
-                    <h2>Borne Totem</h2>
+                    <div className="text">
+                        <h2>Borne Totem</h2>
+                        <p>Disponible en 22, 27, 32 et 43 pouces</p>
+                    </div>
                 </div>
                 <div className="totem-div">
                     <img src="./img/totem-borne.png" alt="Totem"/>
-                    <h2>Borne Totem</h2>
+                    <div className="text">
+                        <h2>Borne Totem</h2>
+                        <p>Disponible en 22, 27, 32 et 43 pouces</p>
+                    </div>
                 </div>
             </div>
         </div>
