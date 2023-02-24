@@ -5,7 +5,7 @@ const VideoTerminal = () => {
         <div className="App-video">
             <div className="video-container">
                 <div className="video">
-                    <iframe title="borne_video" width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="borne_video" width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 <div>
                     <button>
@@ -21,7 +21,7 @@ const VideoTerminal = () => {
                     <span>Meilleure vente</span>
                 </div>
                 <div className="terminal-img">
-                    <img src="./img/borne.png" alt="borne"/>
+                    <img src="./img/borne1.jpeg" alt="borne"/>
                 </div>
                 <div className="terminal-desc">
                     <div>
