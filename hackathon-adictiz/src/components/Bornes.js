@@ -31,13 +31,12 @@ const Bornes = () => {
                 <div className="totem-div">
                     <img src="./img/borne3.png" alt="Borne iSLIM"/>
                     <div className="text">
-                        <h2>Borne totem iSLIM</h2>
-                        <p>A partir de 2590,00€ HT<br/><br/>
-                        Alliant des composants électroniques performants à un design robuste et ultra-fin. Il offre une 
-                        résolution d'image 4K époustouflante, mettant en valeur vos contenus multimédia. Disponible en 4 
-                        tailles (32, 40, 50 et 58 pouces) et 2 couleurs (noir ou blanc), il encourage l'interaction avec 
-                        le public grâce à son application multitouch. Ce totem est idéal pour les salons professionnels ou 
-                        pour intégrer un nouvel agencement d'espace commercial digitalisé dans votre point de vente.</p>
+                        <h2>Borne interactive WAVE</h2>
+                        <p>A partir de 2990,00€ HT<br/><br/>
+                        Il s'agit d'une nouvelle borne interactive dotée d'un design élégant et de lignes courbes 
+                        qui attirent les visiteurs des points de vente. Elle dispose également d'une<br/> configuration 
+                        informatique puissante pour déployer des applications <br/>tactiles multitouch. Cette borne est 
+                        disponible en trois tailles différentes : 43, 50 et 55 pouces.</p>
                     </div>
                 </div>
             </div>
