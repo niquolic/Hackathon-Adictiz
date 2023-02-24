@@ -31,19 +31,22 @@
             width: 300px;
             transition: .5s ease-in-out;
         }
-        h2 {
-            font-family: 'Montserrat Bold', sans-serif;
-            padding-top: 10px;
-        }
         .text {
             width: 100%;
-            padding-top: 20px;
-            padding-left: 30px;
             transition: .5s ease-in-out;
             position: absolute;
             bottom: -100%;
             background-color: #0092FF;
             color: white;
+
+            h2 {
+                font-family: 'Montserrat Bold', sans-serif;
+                padding-top: 20px;
+                padding-left: 20px;
+            }
+            p {
+                padding-left: 20px;
+            }
         }
     }
     .totem-div:hover {
