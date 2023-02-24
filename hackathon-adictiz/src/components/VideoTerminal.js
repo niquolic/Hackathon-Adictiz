@@ -8,18 +8,22 @@ const VideoTerminal = () => {
                     <iframe title="borne_video" width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 <div className="container-btn">
+                    <a target="_blank" rel="noreferrer" href="https://www.canva.com/design/DAFbHWanyuA/GVaLIEPbk79eqP9SQPWI7w/edit?utm_content=DAFbHWanyuA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
                     <button>
                         <span className="business">PRÉSENTATION</span>
                         <span className="material-icons">
                             arrow_forward
                         </span>
                     </button>
+                    </a>
+                    <a target="_blank" rel="noreferrer"  href="./pdf/Etude_du_marché.pdf">
                     <button>
                         <span className="business">ÉTUDE DE MARCHÉ</span>
                         <span className="material-icons">
                             arrow_forward
                         </span>
                     </button>
+                    </a>
                 </div>
             </div>
             <div className="terminal-container">
