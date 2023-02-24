@@ -4,6 +4,7 @@ import Bornes from "./components/Bornes";
 import Concept from "./components/Concept";
 import Enjeux from "./components/Enjeux";
 import VideoTerminal from "./components/VideoTerminal";
+import Prestataires from "./components/Prestataires";
 import Footer from "./components/Footer";
 import "./asset/styles/layouts/index.scss";
 
@@ -16,6 +17,7 @@ function App() {
             <Enjeux/>
             <VideoTerminal/>
             <Bornes/>
+            <Prestataires/>
             <Footer/>
         </div>
     );
