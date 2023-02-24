@@ -7,9 +7,15 @@ const VideoTerminal = () => {
                 <div className="video">
                     <iframe title="borne_video" width="750" height="400" src="https://www.youtube.com/embed/JezwwvHetpg?autoplay=1" frameBorder="0" allowFullScreen></iframe>
                 </div>
-                <div>
+                <div className="container-btn">
                     <button>
-                        <span className="business">LE BUSINESS PLAN</span>
+                        <span className="business">PRÉSENTATION</span>
+                        <span className="material-icons">
+                            arrow_forward
+                        </span>
+                    </button>
+                    <button>
+                        <span className="business">ÉTUDE DE MARCHÉ</span>
                         <span className="material-icons">
                             arrow_forward
                         </span>

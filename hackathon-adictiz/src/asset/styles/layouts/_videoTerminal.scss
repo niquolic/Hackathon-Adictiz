@@ -16,8 +16,16 @@
         height: 55vh;
         width: 50vw;
     }
+    .container-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
     button {
         margin-top: 40px;
+        margin-right: 20px;
         background-color: #0092FF;
         border-radius: 40px;
         color: white;
@@ -27,6 +35,7 @@
         font-size: 16px;
         border: none;
         cursor: pointer;
+        
         .business {
             margin-right: 10px;
         }
